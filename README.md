@@ -2,7 +2,7 @@ Ansible role: EPEL Repository
 =========
 
 
-[![Build Status](https://travis-ci.org/shomatan/ansible-nginx.svg?branch=master)](https://travis-ci.org/shomatan/ansible-epel)
+[![Build Status](https://travis-ci.org/shomatan/ansible-nginx.svg?branch=master)](https://travis-ci.org/shomatan/ansible-repo-epel)
 
 Installs EPEL repository.
 
