@@ -1,7 +1,4 @@
 ---
-- name: Ensure epel repository is installed.
-  yum: name=epel-release
-
-- name: Fix EPEL repository only RHEL6.
-  replace: dest=/etc/yum.repos.d/epel.repo regexp="mirrorlist=https" replace="mirrorlist=http"
-  when: ansible_distribution_major_version == "6"
+- include: setup-RedHat.yml
+  when: ansible_os_family == 'RedHat'
+  static: no
